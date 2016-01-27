@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.amit.myappportfolio.MainActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Nanodegree Apps!"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_left_right_margin"
+            android:layout_marginRight="@dimen/button_left_right_margin"
+            android:text="@string/project_name1"
+            android:id="@+id/project1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="#F08C35"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_left_right_margin"
+            android:layout_marginRight="@dimen/button_left_right_margin"
+            android:text="@string/project_name2"
+            android:id="@+id/project2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="#F08C35"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_left_right_margin"
+            android:layout_marginRight="@dimen/button_left_right_margin"
+            android:text="@string/project_name3"
+            android:id="@+id/project3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="#F08C35"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_left_right_margin"
+            android:layout_marginRight="@dimen/button_left_right_margin"
+            android:text="@string/project_name4"
+            android:id="@+id/project4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="#F08C35"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_left_right_margin"
+            android:layout_marginRight="@dimen/button_left_right_margin"
+            android:text="@string/project_name5"
+            android:id="@+id/project5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="#F08C35"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/button_left_right_margin"
+            android:layout_marginRight="@dimen/button_left_right_margin"
+            android:text="@string/project_name6"
+            android:id="@+id/project6"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="#EF6C00"/>
+    </LinearLayout>
+</FrameLayout>
+
